@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0b2e4f">
+  <title>Инструкция по установке Navionics Boating</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="preload" href="fonts/tektur-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/golos-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="locked">
+
+  <div class="gate" id="gate">
+    <div class="gate-card">
+      <div class="brand">
+        <img src="images/logo.png" alt="" draggable="false">
+        <span class="brand__name">Navionics Boating<span class="brand__note">инструкция по установке</span></span>
+      </div>
+      <h1>Доступ к инструкции</h1>
+      <p class="sub">Введите код, который вы получили после покупки.</p>
+      <div class="error" id="gate-error" role="alert"></div>
+      <form id="gate-form" autocomplete="off">
+        <input type="password" id="gate-code" placeholder="Код" aria-label="Код" autofocus required>
+        <button class="btn" type="submit">Войти</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="site">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <a class="brand" href="#top">
+          <img src="images/logo.png" alt="" draggable="false">
+          <span class="brand__name">Navionics Boating<span class="brand__note">инструкция по установке</span></span>
+        </a>
+        <nav class="topnav" aria-label="Разделы">
+          <a href="#instruction">Инструкция</a>
+          <a href="#maps">Архивы с картами</a>
+          <a href="#step-4">Распаковка</a>
+          <a href="#problems">Возможные проблемы</a>
+        </nav>
+        <div class="social">
+          <a class="social__link social__link--vk" href="https://vk.ru/navionics_rf" target="_blank" rel="noopener" aria-label="ВКонтакте"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.489.004.729-.003h3.564l.73.003.914.01.433.007.418.011.403.014.388.016.374.021.36.025.345.03.333.033c1.74.196 2.933.616 3.833 1.516.9.9 1.32 2.092 1.516 3.833l.034.333.029.346.025.36.02.373.025.588.012.41.013.644.009.915.004.98-.001 3.313-.003.73-.01.914-.007.433-.011.418-.014.403-.016.388-.021.374-.025.36-.03.345-.033.333c-.196 1.74-.616 2.933-1.516 3.833-.9.9-2.092 1.32-3.833 1.516l-.333.034-.346.029-.36.025-.373.02-.588.025-.41.012-.644.013-.915.009-.98.004-3.313-.001-.73-.003-.914-.01-.433-.007-.418-.011-.403-.014-.388-.016-.374-.021-.36-.025-.345-.03-.333-.033c-1.74-.196-2.933-.616-3.833-1.516-.9-.9-1.32-2.092-1.516-3.833l-.034-.333-.029-.346-.025-.36-.02-.373-.025-.588-.012-.41-.013-.644-.009-.915-.004-.98.001-3.313.003-.73.01-.914.007-.433.011-.418.014-.403.016-.388.021-.374.025-.36.03-.345.033-.333c.196-1.74.616-2.933 1.516-3.833.9-.9 2.092-1.32 3.833-1.516l.333-.034.346-.029.36-.025.373-.02.588-.025.41-.012.644-.013.915-.009ZM6.79 7.3H4.05c.13 6.24 3.25 9.99 8.72 9.99h.31v-3.57c2.01.2 3.53 1.67 4.14 3.57h2.84c-.78-2.84-2.83-4.41-4.11-5.01 1.28-.74 3.08-2.54 3.51-4.98h-2.58c-.56 1.98-2.22 3.78-3.8 3.95V7.3H10.5v6.92c-1.6-.4-3.62-2.34-3.71-6.92Z"/></svg></a>
+          <a class="social__link social__link--tg" href="https://t.me/navionics_boating" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <header class="hero" id="top">
+      <div class="container hero-inner">
+        <h1>Инструкция по установке Navionics</h1>
+        <p>Спасибо, что купили мою инструкцию по установке Navionics Boating! Автор: naviman88@mail.ru.</p>
+        <div class="hero-social">
+          <p>Подписывайтесь на нас в социальных сетях, чтобы не пропустить обновления</p>
+          <div class="buttons">
+            <a class="btn btn--social btn--vk" href="https://vk.ru/navionics_rf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.489.004.729-.003h3.564l.73.003.914.01.433.007.418.011.403.014.388.016.374.021.36.025.345.03.333.033c1.74.196 2.933.616 3.833 1.516.9.9 1.32 2.092 1.516 3.833l.034.333.029.346.025.36.02.373.025.588.012.41.013.644.009.915.004.98-.001 3.313-.003.73-.01.914-.007.433-.011.418-.014.403-.016.388-.021.374-.025.36-.03.345-.033.333c-.196 1.74-.616 2.933-1.516 3.833-.9.9-2.092 1.32-3.833 1.516l-.333.034-.346.029-.36.025-.373.02-.588.025-.41.012-.644.013-.915.009-.98.004-3.313-.001-.73-.003-.914-.01-.433-.007-.418-.011-.403-.014-.388-.016-.374-.021-.36-.025-.345-.03-.333-.033c-1.74-.196-2.933-.616-3.833-1.516-.9-.9-1.32-2.092-1.516-3.833l-.034-.333-.029-.346-.025-.36-.02-.373-.025-.588-.012-.41-.013-.644-.009-.915-.004-.98.001-3.313.003-.73.01-.914.007-.433.011-.418.014-.403.016-.388.021-.374.025-.36.03-.345.033-.333c.196-1.74.616-2.933 1.516-3.833.9-.9 2.092-1.32 3.833-1.516l.333-.034.346-.029.36-.025.373-.02.588-.025.41-.012.644-.013.915-.009ZM6.79 7.3H4.05c.13 6.24 3.25 9.99 8.72 9.99h.31v-3.57c2.01.2 3.53 1.67 4.14 3.57h2.84c-.78-2.84-2.83-4.41-4.11-5.01 1.28-.74 3.08-2.54 3.51-4.98h-2.58c-.56 1.98-2.22 3.78-3.8 3.95V7.3H10.5v6.92c-1.6-.4-3.62-2.34-3.71-6.92Z"/></svg>ВКонтакте</a>
+            <a class="btn btn--social btn--tg" href="https://t.me/navionics_boating" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>Telegram</a>
+          </div>
+        </div>
+      </div>
+      <nav class="container depth-scale" aria-label="Шаги инструкции">
+        <a href="#step-1" style="--seg: var(--depth-1); --i: 0"><b>1</b>Приложение</a>
+        <a href="#step-2" style="--seg: var(--depth-2); --i: 1"><b>2</b>Total Commander</a>
+        <a href="#step-3" style="--seg: var(--depth-3); --i: 2"><b>3</b>Папка Download</a>
+        <a href="#step-4" style="--seg: var(--depth-4); --i: 3"><b>4</b>Распаковка</a>
+        <a href="#step-5" style="--seg: var(--depth-5); --i: 4"><b>5</b>products_cache</a>
+        <a href="#step-6" style="--seg: var(--depth-6); --i: 5"><b>6</b>Закрыть Boating</a>
+        <a href="#step-7" style="--seg: var(--depth-7); --i: 6"><b>7</b>SonarChart</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="instruction">
+        <div class="container">
+          <div class="block prose">
+            <p class="note">Кнопки с замком открываются паролем: нажмите кнопку, введите пароль, полученный после покупки, затем «Открыть в облаке».</p>
+          </div>
+          <div class="block prose">
+            <p class="step" id="step-1"><strong>1</strong> Скачайте приложение (кнопка ниже), установите его и <strong>дайте разрешения</strong>.</p>
+          </div>
+          <div class="block buttons">
+            <button class="btn btn--locked" type="button" data-link="app">Приложение (скачать)</button>
+          </div>
+          <div class="block prose">
+            <p>Если установщик ругается на «подозрительное приложение», нажмите <strong>«Всё равно продолжить»</strong>.</p>
+          </div>
+          <div class="block carousel" data-carousel>
+            <button class="car-btn car-prev" type="button" aria-label="Назад">&#8249;</button>
+            <div class="carousel-track">
+              <div class="carousel-item"><img src="images/install-1.webp" alt="Создание учётной записи в приложении" draggable="false"></div>
+              <div class="carousel-item"><img src="images/install-2.webp" alt="Предупреждение о подозрительном приложении" draggable="false"></div>
+              <div class="carousel-item"><img src="images/install-3.webp" alt="Кнопка «Всё равно установить»" draggable="false"></div>
+              <div class="carousel-item"><img src="images/install-4.webp" alt="Форма регистрации: имя, e-mail, пароль" draggable="false"></div>
+            </div>
+            <button class="car-btn car-next" type="button" aria-label="Вперёд">&#8250;</button>
+            <div class="car-dots"></div>
+          </div>
+          <div class="block prose">
+            <p>После установки запустите приложение и создайте учётную запись: введите любой e&#8209;mail и придумайте пароль. Если у вас уже есть учётная запись <strong>Garmin</strong>, войдите под ней.</p>
+            <p><strong>Пароль: не короче 8 символов, хотя бы одна заглавная буква, одна строчная и цифры.</strong></p>
+            <p>После входа вы увидите общую карту без глубин. Закройте приложение и <strong>перезагрузите телефон</strong>.</p>
+          </div>
+          <div class="block prose">
+            <p class="step" id="step-2"><strong>2</strong> Для быстрой распаковки карт из архива <strong>установите файловый менеджер Total Commander</strong>: скачайте, установите и <strong>дайте разрешения</strong>.</p>
+          </div>
+          <div class="block buttons">
+            <button class="btn btn--locked" type="button" data-link="total-commander">Total Commander (скачать)</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--water" id="maps">
+        <div class="container">
+          <h2 class="section-heading">Архивы с картами</h2>
+          <div class="block prose">
+            <p>Скачайте общий архив с Яндекс Диска. Если из-за лимитов Яндекс Диска не получается, скачайте тот же архив с Облака Mail.</p>
+          </div>
+          <div class="block buttons">
+            <button class="btn btn--locked" type="button" data-link="maps-yandex">Архив карт (Яндекс Диск)</button>
+            <button class="btn btn--locked" type="button" data-link="maps-mail">Архив карт (Облако Mail)</button>
+          </div>
+          <ul class="charts">
+            <li class="chart-row">
+              <div class="chart-row__text"><h3 class="compass">Южный федеральный округ</h3></div>
+              <button class="btn btn--locked" type="button" data-link="ufo">Скачать</button>
+            </li>
+            <li class="chart-row">
+              <div class="chart-row__text"><h3 class="compass">Пермь и Пермский край</h3></div>
+              <button class="btn btn--locked" type="button" data-link="perm">Скачать</button>
+            </li>
+            <li class="chart-row">
+              <div class="chart-row__text"><h3 class="compass">Нижняя Волга</h3><p>Карты глубин всей Нижней Волги, от Ульяновска до Каспийского моря</p></div>
+              <button class="btn btn--locked" type="button" data-link="volga">Скачать</button>
+            </li>
+            <li class="chart-row">
+              <div class="chart-row__text">
+                <h3 class="compass">Заблокированные регионы РФ</h3>
+                <p>Новосибирское водохранилище, Белое море, Байкал, Красноярское водохранилище. <strong>Эти карты работают только в версии 11.5v5 BoatingHD.</strong></p>
+              </div>
+              <button class="btn btn--locked" type="button" data-link="blocked-regions">Карты</button>
+              <button class="btn btn--locked" type="button" data-link="boating-11-5">Версия 11.5v5</button>
+            </li>
+          </ul>
+          <div class="block prose">
+            <p class="compass">Также есть карты Калининградской области, от Азовского моря до Гибралтара и Балтики. Если нужны, напишите.</p>
+          </div>
+          <div class="block prose">
+            <p class="step" id="step-3"><strong>3</strong> Карты должны быть скачаны в папку <strong>Download (Загрузки)</strong> на вашем устройстве. Обычно они сохраняются туда по умолчанию.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="unpacking">
+        <div class="container">
+          <div class="block prose">
+            <p class="step" id="step-4"><strong>4</strong> Распакуйте карты, как показано в <strong>видео</strong>.</p>
+          </div>
+          <div class="block buttons">
+            <a class="btn btn--outline btn--video" role="button" tabindex="0" data-href="https://disk.yandex.ru/i/0LwxgOPBVw7upQ">Видео: распаковка карт</a>
+          </div>
+          <div class="block prose">
+            <p>После распаковки запустите приложение и убедитесь, что при сильном увеличении оно показывает глубины.</p>
+            <p><strong>Запуск и первичная настройка приложения</strong> показаны во втором видео:</p>
+          </div>
+          <div class="block buttons">
+            <a class="btn btn--outline btn--video" role="button" tabindex="0" data-href="https://disk.yandex.ru/i/S1PcfnZ_BjGZxA">Видео: первичные настройки</a>
+          </div>
+          <div class="block prose">
+            <p>Если вы на 100% уверены, что правильно распаковали архив с картами, но при открытии BoatingHD они не прорисовываются, воспользуйтесь <strong>дополнительным архивом products_cache</strong>.</p>
+          </div>
+          <div class="block buttons">
+            <button class="btn btn--locked" type="button" data-link="net-fix">Дополнительный архив (net-fix)</button>
+          </div>
+          <div class="block prose">
+            <p class="step" id="step-5"><strong>5</strong> <strong>Важно!</strong> Содержимое архива (одну папку <strong>products_cache</strong>) нужно распаковать в папку программы <code>/Navionics/BoatingHD</code>. Это на уровень выше, чем распаковывали карты. Распаковывайте так же, как карты, с перезаписью (заменой) существующих файлов.</p>
+            <p>В архиве net-fix одна папка <strong>products_cache</strong>: отметьте её галочкой и скопируйте с заменой в папку <code>/Navionics/BoatingHD/</code>.</p>
+          </div>
+          <div class="block single-photo"><img src="images/net-fix.jpg" alt="Папка products_cache в архиве Net-fix.zip в Total Commander" draggable="false"></div>
+          <div class="block prose">
+            <p class="step" id="step-6"><strong>6</strong> Когда распаковываете карты и net-fix через Total Commander (как в первом видео), приложение Boating должно быть <strong>закрыто</strong>, то есть остановлено и выгружено из памяти. Или просто перезагрузите телефон перед распаковкой.</p>
+          </div>
+          <div class="block prose">
+            <p class="step" id="step-7"><strong>7</strong> На некоторых небольших озёрах и реках глубины видны не в режиме <strong>Navionics</strong>, а только в режиме <strong>SonarChart</strong>. Зоны рыбалки в настройках карты тоже работают только в режиме <strong>SonarChart</strong>.</p>
+            <p>Чтобы <strong>раскрасить диапазоны глубин</strong>, включите <strong>Зоны рыбалки</strong> (Меню → Настройки карты → Зоны рыбалки) и добавьте нужные цветные диапазоны.</p>
+          </div>
+          <div class="block carousel" data-carousel>
+            <button class="car-btn car-prev" type="button" aria-label="Назад">&#8249;</button>
+            <div class="carousel-track">
+              <div class="carousel-item"><img src="images/sonarchart.webp" alt="Карта глубин в режиме SonarChart" draggable="false"></div>
+              <div class="carousel-item"><img src="images/fishing-zones.webp" alt="Настройка зон рыбалки" draggable="false"></div>
+            </div>
+            <button class="car-btn car-next" type="button" aria-label="Вперёд">&#8250;</button>
+            <div class="car-dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--water" id="problems">
+        <div class="container">
+          <h2 class="section-heading">Возможные проблемы</h2>
+          <div class="block prose">
+            <p><strong>1. Приложение не устанавливается.</strong> Возможно, дело в мобильной связи. Установите версию без регистрации:</p>
+          </div>
+          <div class="block buttons">
+            <button class="btn btn--locked" type="button" data-link="boating-11-5">Версия без регистрации (скачать)</button>
+          </div>
+          <div class="block prose">
+            <p>Скачайте, установите и <strong>дайте разрешения</strong>. Если установщик ругается на «подозрительное приложение», нажмите «Всё равно продолжить». После установки запустите приложение, убедитесь, что оно показывает базовую карту без глубин, и сразу закройте его. <strong>Затем перезагрузите телефон</strong> и пройдите инструкцию с начала.</p>
+            <p class="note"><strong>Внимание:</strong> если первый способ не сработал, перед установкой второй версии программы <strong>удалите старую версию</strong>.</p>
+          </div>
+          <div class="block prose">
+            <p><strong>2. Не показываются глубины.</strong> На некоторых небольших озёрах и реках глубины видны только в режиме <strong>SonarChart</strong>, а не в режиме Navionics (см. шаг 7).</p>
+          </div>
+          <div class="block prose">
+            <p><strong>3. Интернет.</strong> Устанавливать программу и регистрироваться желательно по <strong>Wi-Fi</strong>.</p>
+          </div>
+          <div class="block prose">
+            <p><strong>4. Ваших карт нет в архивах.</strong> Установите приложение <strong>ActiveCaptain 36.0</strong>:</p>
+          </div>
+          <div class="block buttons">
+            <button class="btn btn--locked" type="button" data-link="activecaptain">ActiveCaptain 36.0 (скачать)</button>
+          </div>
+          <div class="block prose">
+            <ol>
+              <li>Скачайте и установите приложение.</li>
+              <li>Войдите в учётную запись или зарегистрируйтесь.</li>
+              <li>Нажмите на три полоски в правом верхнем углу.</li>
+              <li>Выберите <strong>«Загрузить данные сообщества Quickdraw»</strong>.</li>
+              <li>Найдите нужный водоём и скачайте его.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!--
+        ШАБЛОН НОВОГО РАЗДЕЛА. Скопируйте всё от <section ...> до </section> и вставьте перед этим
+        комментарием или между другими разделами. Замените id (латиницей, без пробелов), заголовок,
+        текст и ID кнопок из редактора. Голубой фон: class="section section--water".
+
+      <section class="section" id="new-section">
+        <div class="container">
+          <h2 class="section-heading">Заголовок раздела</h2>
+          <div class="block prose">
+            <p>Текст абзаца. <strong>Важное выделяйте жирным.</strong></p>
+            <p>Следующий абзац.</p>
+          </div>
+          <div class="block buttons">
+            <button class="btn btn--locked" type="button" data-link="ID-yandex">Скачать (Яндекс Диск)</button>
+            <button class="btn btn--locked" type="button" data-link="ID-mail">Скачать (Облако Mail)</button>
+          </div>
+        </div>
+      </section>
+
+        ШАБЛОН СТРОКИ РЕГИОНА. Скопируйте от <li ...> до </li> и вставьте в список <ul class="charts">
+        рядом с другими регионами.
+
+            <li class="chart-row">
+              <div class="chart-row__text"><h3 class="compass">Название региона</h3><p>Описание (можно удалить эту строку)</p></div>
+              <button class="btn btn--locked" type="button" data-link="ID-yandex">Яндекс Диск</button>
+              <button class="btn btn--locked" type="button" data-link="ID-mail">Облако Mail</button>
+            </li>
+      -->
+
+      <!-- Сюда приходят ссылки из редактора, у которых нет своей кнопки в тексте -->
+      <section class="section" id="extra-links" hidden>
+        <div class="container">
+          <h2 class="section-heading">Дополнительные материалы</h2>
+          <div class="block buttons" id="extra-links-list"></div>
+        </div>
+      </section>
+
+      <section class="section" id="contacts">
+        <div class="container contact">
+          <p><strong>Если что-то не получится или возникнут вопросы, пишите.</strong></p>
+          <a class="btn btn--contact" role="button" tabindex="0" data-href="mailto:naviman88@mail.ru">naviman88@mail.ru</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <span class="brand">
+          <img src="images/logo.png" alt="" draggable="false">
+          <span class="brand__name">Navionics Boating</span>
+        </span>
+        <span>&copy; <span id="year"></span> naviman88@mail.ru</span>
+      </div>
+    </footer>
+  </div>
+
+  <noscript><p class="container">Для доступа к материалам включите JavaScript.</p></noscript>
+  <script src="js/link-crypto.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/links.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
