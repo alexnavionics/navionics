@@ -5,9 +5,9 @@ window.PROTECTED_LINKS = [
     "description": "Установочный файл приложения",
     "secret": {
       "iterations": 250000,
-      "salt": "/v43PRWdFkRoC4tVeb82Mg==",
-      "iv": "Jh5DY9jGChzwRdOS",
-      "data": "pmGFx5Ya+/igNOhKPX/DagPP0ntJLXNBy7L2v/xe0g5mVmVFiil4uvrq8op/EdroPZe0f4f/DA=="
+      "salt": "iU5C+4krfhUuMUg/ioB9WQ==",
+      "iv": "Oz1MAzviD9Yblead",
+      "data": "+0ABSo55uJ8ka4BulNSCXW3I+ffdSss11wrpQP4+XNdMZuoLGS8bIfa/Gp/DIoISMu3cVpOibQ=="
     },
     "id": "app"
   },
@@ -16,109 +16,197 @@ window.PROTECTED_LINKS = [
     "description": "Файловый менеджер для распаковки карт",
     "secret": {
       "iterations": 250000,
-      "salt": "fSyKHeE/vLv1klhXEBjTHg==",
-      "iv": "dIw4ETiZ7GUFzVq5",
-      "data": "O3if02FmZkTmW6hN6O21B3Uki0K5vuFx9Wh5SPeh1RBdaahc3cxLI29bexfVDd5Mz7S2PezaZA=="
+      "salt": "fncLuFJfRhwXWpmxot74Aw==",
+      "iv": "XMmxzfzsXOjD+hmc",
+      "data": "6bfOpSBZPu0YVJEhKDz2LZ+oiPje2xwosn/AC5/UyS9on0Stpw8CRWKekoaFP4PSXv2bncrmKQ=="
     },
     "id": "total-commander"
   },
   {
-    "title": "Общий архив карт (Яндекс Диск)",
+    "title": "Карты России (Яндекс Диск)",
     "description": "Карты РФ, основной архив",
     "secret": {
       "iterations": 250000,
-      "salt": "enSz9wrCgM1oVwy/xPijnw==",
-      "iv": "6wDAmkdKkj6DfO0M",
-      "data": "wqNPFqrqcwDoUENoyPH8RyczGlwOLCF3Ds4pse/hl4cl5NKLnW+jWj24lOg2F6Y8jnl45wC0rg=="
+      "salt": "i6+rqkYH5w8WLl7r5kHILg==",
+      "iv": "PEpjTdDXHyLatYOo",
+      "data": "Q4GQgj/K91PzJcOhVtRKm+6YytK55nWXPqExcPSBY5tJXPuBcA6yo+VA8KCanLIYGjFWCtm1Lg=="
     },
     "id": "maps-yandex"
   },
   {
-    "title": "Общий архив карт (Облако Mail)",
+    "title": "Карты России (Облако Mail)",
     "description": "Тот же архив, если Яндекс Диск не даёт скачать",
     "secret": {
       "iterations": 250000,
-      "salt": "O+BvOl77lyp8NFjPRr8uAg==",
-      "iv": "utifrq2UD1S7polU",
-      "data": "kJcy3yIHI7BjaQHOhbSlsWb7NQq96xe2Bc2f57xdQ319GqdSr1F+idjAucjHTeyV9YLEbyq941VNobg="
+      "salt": "r9JZZRTzZU9iqtifNWigNg==",
+      "iv": "LUZjTpBg+VEFaw85",
+      "data": "GB8Qii4g3s+qmQCmBmz5EfZ1cQgXeztJ7eRkU0wL1R97e+wsXHLnHy6G+UvNUt9HsqyiULfusGaPNQs="
     },
     "id": "maps-mail"
-  },
-  {
-    "title": "Южный федеральный округ",
-    "description": "Карты региона",
-    "secret": {
-      "iterations": 250000,
-      "salt": "KNwDDFFK1mPon1O1xG0fhg==",
-      "iv": "8RSLPWdWu8+X+rF5",
-      "data": "9c0BwssXSIEYMz7gl2WiWXCG+WfGjBKttM2KB8zjR/3dC+0mX6LZYZyCwKQ2M+WbCxfJ7cnU2g=="
-    },
-    "id": "ufo"
-  },
-  {
-    "title": "Пермь и Пермский край",
-    "description": "Карты региона",
-    "secret": {
-      "iterations": 250000,
-      "salt": "hgtytpD/FWA0Remfwl9m4g==",
-      "iv": "HzQl+hoaAEKY6y1m",
-      "data": "bBPyOM4X+ksFLsfv77GfhrpSVgvu6k42E5/UKGfWSdSLshgZfdoQUVYAYSIyHbbLu8uUzLiRgA=="
-    },
-    "id": "perm"
-  },
-  {
-    "title": "Нижняя Волга",
-    "description": "Карты глубин от Ульяновска до Каспийского моря",
-    "secret": {
-      "iterations": 250000,
-      "salt": "9+GWt/lJqrd5edZsff6mQw==",
-      "iv": "iK6dRfPccu+XCvfC",
-      "data": "1BlhtjDQapoMkTlwkuGSxdHuACPBAN+WhfLnXy5tY56UqUQw8DkwMVcsWWRCwyekr5JPMBWiWw=="
-    },
-    "id": "volga"
-  },
-  {
-    "title": "Заблокированные регионы РФ",
-    "description": "Новосибирское водохранилище, Белое море, Байкал, Красноярское водохранилище",
-    "secret": {
-      "iterations": 250000,
-      "salt": "8DGOaHzUhRNYHIs9DqaluA==",
-      "iv": "FAA2DrAI+hz2hNPq",
-      "data": "MYkNp/CLeh7KBRD9f7BQd42sMz682DmoHtaYr5LbwXAEF1KSrVELH9LcEDRAPYzE5eZ6kFxZTg=="
-    },
-    "id": "blocked-regions"
   },
   {
     "title": "Версия 11.5v5 BoatingHD",
     "description": "Версия без регистрации",
     "secret": {
       "iterations": 250000,
-      "salt": "ous6WcA5PFSJh3xKhVDG6w==",
-      "iv": "JeqY8XoRfZhwbKBA",
-      "data": "Vbgv2voYmTFBk+ZALu1yAx2LzJ9/99idU0CNjPHenVngxF5MUlMXdKOKMuiTLPn8M1phnXrF9Q=="
+      "salt": "cKgMPI+9oza5Hoxq9s/GOA==",
+      "iv": "0SmJXqWbTUDUjM0M",
+      "data": "dzZZJX6UPe7W2Uhr0s36eRv2NOUUzMYOExDMPTcyiANQkAuBWKijsG+z/1Wlgy7iljIbd/lytg=="
     },
     "id": "boating-11-5"
-  },
-  {
-    "title": "Дополнительный архив products_cache (net-fix)",
-    "description": "Если глубины не прорисовываются",
-    "secret": {
-      "iterations": 250000,
-      "salt": "MUgZgCg71N2/dlUuWmN3hg==",
-      "iv": "WWkDdlIs8iLulgEU",
-      "data": "LO3Q2MUyq7XJ0O9UO4aXUyxXkAm28TNgfi50qFh8qWkiQaveaR8aqIqYIDoc4u8QKXevlyP/6A=="
-    },
-    "id": "net-fix"
   },
   {
     "title": "ActiveCaptain 36.0",
     "description": "Если ваших карт нет",
     "secret": {
       "iterations": 250000,
-      "salt": "Iv3gonXFY0+22voIlA1sfw==",
-      "iv": "vNMmPHBJSryqs4La",
-      "data": "v27GKG57P/VoTpVywpdz5Nx4ryDRe7mURYP7pskSTumXwVHf7zNIlc5MHL58YMvenkn80MTLtw=="
+      "salt": "SkQVlBgGBfMRge1RKE8XLw==",
+      "iv": "hB9BDP1x1JfEj62w",
+      "data": "Bf7TsctV8BwNzYWNIMa4HioMjUztbDVtF8xKEkeWFv9M9O36tl41nfX+P9FHOyDMIEsSWPXt8g=="
     },
     "id": "activecaptain"
+  },
+  {
+    "title": "Карты России: обновления",
+    "description": "Обновления основного архива",
+    "secret": {
+      "iterations": 250000,
+      "salt": "2cShYAnIFOBV0oP2wZFVSw==",
+      "iv": "/L9qjCqZxl/upQUz",
+      "data": "qbHXfyw/2+zuwp+yY5rWXljlsOScbogL0deU22MCZKNsqrqEWZfu5adS6LupPQE3g4fsd5hGfFOhYHs="
+    },
+    "id": "maps-updates"
+  },
+  {
+    "title": "Калининград (Яндекс Диск)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "nr8BESkDfeY3XRD0/J/Y5Q==",
+      "iv": "g1D3agpI+E177DVE",
+      "data": "/uUJgE70YBqR6I8eiaiq87PVuymgqiQuKztPl+uvLUaKEpPvW2IxmysmSYGBHncNA2SwXGRp8w=="
+    },
+    "id": "kaliningrad-yandex"
+  },
+  {
+    "title": "Калининград (Облако Mail)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "EGd55XKkxSf6OSZFqd0Hig==",
+      "iv": "LTpT5mFuP/mVGSJB",
+      "data": "5lzJldx54wDvn79mkWED4snyqyWH5HOBxE/sBfg/RJKKpZ99vetGQxwNkyoNt0QbEdYkCorUpHi3hk0="
+    },
+    "id": "kaliningrad-mail"
+  },
+  {
+    "title": "Балтийское море (Яндекс Диск)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "zoOkYh1P0Las1iBV88mjdg==",
+      "iv": "0jl3bkcftxEWm8Cf",
+      "data": "/zZEnlZdnKP1aXOuVAimgeo+g0ZnlFEEp6cIukP1hOjI9dWT4ZJOh2VJ49VNa69o9Rup17+kSQ=="
+    },
+    "id": "baltic-yandex"
+  },
+  {
+    "title": "Балтийское море (Облако Mail)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "BKyu/018YDqQUtZ0TAqrqg==",
+      "iv": "e0A3jMFAzt3fA6gY",
+      "data": "5iE4V8qAHD0Kpg+Wxymp7hujtrZF7a6oHggxA9R5jiPyQuOWeGBmcsTh+LUOxrVGUTas/oHKdg=="
+    },
+    "id": "baltic-mail"
+  },
+  {
+    "title": "Карты Европы (Яндекс Диск)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "hrgRi2d9Ieg9jbVKLIb5Pw==",
+      "iv": "+v2JdICcZHl4ZtdY",
+      "data": "oEHEC9w9XqRsyZTn9Y61rxQhGkobPqjClrskSq3Ccb4sQxcW1oh3/uZ9SCZzCC6sPrdjCc9DRw=="
+    },
+    "id": "europe-yandex"
+  },
+  {
+    "title": "Карты Европы (Облако Mail)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "eKfreUykzrqzLC+QgGSGPQ==",
+      "iv": "xBmYosYalJJe5U6c",
+      "data": "RjwbMF5LNErnBXRAbQyyDKV3GjONPmI4ikowh2KFB6WFJ1llCw/QDeay3xgELQQaozYiarcNkQ=="
+    },
+    "id": "europe-mail"
+  },
+  {
+    "title": "Средиземное море (Яндекс Диск)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "vwH/epK1cgAtNNmVFmyDjA==",
+      "iv": "xg1nLXLrBfx/EUnj",
+      "data": "1YH5KK/TRKk3dh+A+ef6BNSMq9Yif9t8EoE2Q9PSfBd7wqKpuwgG8xF2MVG9bRSyMsVmdaKYxmit7wc="
+    },
+    "id": "mediterranean-yandex"
+  },
+  {
+    "title": "Средиземное море (Облако Mail)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "lJFiMYTTmDemZqyePZmjnw==",
+      "iv": "CXYNvY9VYLLVPfRz",
+      "data": "ahqOEZegZvJigY/Y6sp4+32WseNZisjK3+yGRWkvSsoQ125vlB40XKBB2fFKYkvJB3Pb6xv+8zUom7w="
+    },
+    "id": "mediterranean-mail"
+  },
+  {
+    "title": "Дальний Восток, акватория Владивостока (Яндекс Диск)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "BQyjZny0qQWn4ss0uiiRDQ==",
+      "iv": "bur41OqMW0moMEza",
+      "data": "IRw1powXrGfwiUr9nlunRwQu2j53fom5Eogl/kQk9u691ISnwgyBq2XdJckQfIWQzKCeOL/CHKDHjGQ="
+    },
+    "id": "far-east-yandex"
+  },
+  {
+    "title": "Дальний Восток, акватория Владивостока (Облако Mail)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "Vnepvjusnk8LylsuTbPnig==",
+      "iv": "/Kpp+AzKPLENMUE4",
+      "data": "4lkBhfpS7pN0JlZxiltPfRV+USg0IaObb4+smOxezLD5agDhqC8rJ9Ex1USrDgJFqeTxyfSRL+clthI="
+    },
+    "id": "far-east-mail"
+  },
+  {
+    "title": "Заблокированные регионы РФ (Яндекс Диск)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "Ukrh9SkQZn6IHx1iZjrxfg==",
+      "iv": "PPZCDeF74l9gf0SI",
+      "data": "cG5b6UQE+ktWPRjwwkV4OlHwaeQl+QgwQ0j/IOtwvEZlshB+JhtkhxTkMB61iU1EqPSRzB+D8Q=="
+    },
+    "id": "blocked-yandex"
+  },
+  {
+    "title": "Заблокированные регионы РФ (Облако Mail)",
+    "description": "",
+    "secret": {
+      "iterations": 250000,
+      "salt": "KA15gFl7beefuiDlO30BOg==",
+      "iv": "F1UUoOrjsfLMSQer",
+      "data": "b6fUqyhQCHNJH13biw6F4kL68udB3Hq9z3Yy5OpoUmXiZc8rBPY8UL0dpc9aQaMx0IJifBBpYQv4Euw="
+    },
+    "id": "blocked-mail"
   }
 ];

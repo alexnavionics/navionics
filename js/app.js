@@ -224,7 +224,7 @@
     document.querySelectorAll('.step > strong:first-child').forEach(function (num) {
       var step = parseInt(num.textContent, 10);
       if (!step) return;
-      var level = Math.min(step, 7);
+      var level = Math.min(step, 5);
       num.parentNode.style.setProperty('--depth', 'var(--depth-' + level + ')');
       if (level <= 2) num.parentNode.classList.add('step--shallow');
     });

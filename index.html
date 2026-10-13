@@ -66,9 +66,7 @@
         <a href="#step-2" style="--seg: var(--depth-2); --i: 1"><b>2</b>Total Commander</a>
         <a href="#step-3" style="--seg: var(--depth-3); --i: 2"><b>3</b>Папка Download</a>
         <a href="#step-4" style="--seg: var(--depth-4); --i: 3"><b>4</b>Распаковка</a>
-        <a href="#step-5" style="--seg: var(--depth-5); --i: 4"><b>5</b>products_cache</a>
-        <a href="#step-6" style="--seg: var(--depth-6); --i: 5"><b>6</b>Закрыть Boating</a>
-        <a href="#step-7" style="--seg: var(--depth-7); --i: 6"><b>7</b>SonarChart</a>
+        <a href="#step-5" style="--seg: var(--depth-5); --i: 4"><b>5</b>SonarChart</a>
       </nav>
     </header>
 
@@ -99,8 +97,6 @@
             <div class="car-dots"></div>
           </div>
           <div class="block prose">
-            <p>После установки запустите приложение и создайте учётную запись: введите любой e&#8209;mail и придумайте пароль. Если у вас уже есть учётная запись <strong>Garmin</strong>, войдите под ней.</p>
-            <p><strong>Пароль: не короче 8 символов, хотя бы одна заглавная буква, одна строчная и цифры.</strong></p>
             <p>После входа вы увидите общую карту без глубин. Закройте приложение и <strong>перезагрузите телефон</strong>.</p>
           </div>
           <div class="block prose">
@@ -115,38 +111,82 @@
       <section class="section section--water" id="maps">
         <div class="container">
           <h2 class="section-heading">Архивы с картами</h2>
-          <div class="block prose">
-            <p>Скачайте общий архив с Яндекс Диска. Если из-за лимитов Яндекс Диска не получается, скачайте тот же архив с Облака Mail.</p>
-          </div>
-          <div class="block buttons">
-            <button class="btn btn--locked" type="button" data-link="maps-yandex">Архив карт (Яндекс Диск)</button>
-            <button class="btn btn--locked" type="button" data-link="maps-mail">Архив карт (Облако Mail)</button>
-          </div>
-          <ul class="charts">
-            <li class="chart-row">
-              <div class="chart-row__text"><h3 class="compass">Южный федеральный округ</h3></div>
-              <button class="btn btn--locked" type="button" data-link="ufo">Скачать</button>
+          <ul class="maps-grid">
+            <li class="map-card map-card--main">
+              <img class="map-card__img" src="images/map-main.webp" alt="Покрытие основного архива: европейская часть России" loading="lazy" draggable="false">
+              <div class="map-card__body">
+                <h3 class="compass">Карты России</h3>
+                <p><strong>Северо-запад от Карелии и на юг до Каспия, включая Раскаты, Азовское с Доном, Пермский край.</strong></p>
+                <p>Скачайте общий архив с Яндекс Диска. Если из-за лимитов Яндекс Диска не получается, скачайте тот же архив с Облака Mail.</p>
+                <div class="buttons">
+                  <button class="btn btn--locked" type="button" data-link="maps-yandex">Яндекс Диск</button>
+                  <button class="btn btn--locked" type="button" data-link="maps-mail">Облако Mail</button>
+                  <button class="btn btn--locked" type="button" data-link="maps-updates">Обновления</button>
+                </div>
+              </div>
             </li>
-            <li class="chart-row">
-              <div class="chart-row__text"><h3 class="compass">Пермь и Пермский край</h3></div>
-              <button class="btn btn--locked" type="button" data-link="perm">Скачать</button>
+            <li class="map-card">
+              <img class="map-card__img" src="images/map-kaliningrad.webp" alt="Покрытие карт Калининградской области" loading="lazy" draggable="false">
+              <div class="map-card__body">
+                <h3 class="compass">Калининград</h3>
+                <div class="buttons">
+                  <button class="btn btn--locked" type="button" data-link="kaliningrad-yandex">Яндекс Диск</button>
+                  <button class="btn btn--locked" type="button" data-link="kaliningrad-mail">Облако Mail</button>
+                </div>
+              </div>
             </li>
-            <li class="chart-row">
-              <div class="chart-row__text"><h3 class="compass">Нижняя Волга</h3><p>Карты глубин всей Нижней Волги, от Ульяновска до Каспийского моря</p></div>
-              <button class="btn btn--locked" type="button" data-link="volga">Скачать</button>
+            <li class="map-card">
+              <img class="map-card__img" src="images/map-baltic.webp" alt="Покрытие карт Балтийского моря" loading="lazy" draggable="false">
+              <div class="map-card__body">
+                <h3 class="compass">Балтийское море</h3>
+                <div class="buttons">
+                  <button class="btn btn--locked" type="button" data-link="baltic-yandex">Яндекс Диск</button>
+                  <button class="btn btn--locked" type="button" data-link="baltic-mail">Облако Mail</button>
+                </div>
+              </div>
             </li>
-            <li class="chart-row">
-              <div class="chart-row__text">
+            <li class="map-card">
+              <img class="map-card__img" src="images/map-europe.webp" alt="Покрытие карт Европы" loading="lazy" draggable="false">
+              <div class="map-card__body">
+                <h3 class="compass">Карты Европы</h3>
+                <div class="buttons">
+                  <button class="btn btn--locked" type="button" data-link="europe-yandex">Яндекс Диск</button>
+                  <button class="btn btn--locked" type="button" data-link="europe-mail">Облако Mail</button>
+                </div>
+              </div>
+            </li>
+            <li class="map-card">
+              <img class="map-card__img" src="images/map-mediterranean.webp" alt="Покрытие карт Средиземного моря" loading="lazy" draggable="false">
+              <div class="map-card__body">
+                <h3 class="compass">Средиземное море</h3>
+                <div class="buttons">
+                  <button class="btn btn--locked" type="button" data-link="mediterranean-yandex">Яндекс Диск</button>
+                  <button class="btn btn--locked" type="button" data-link="mediterranean-mail">Облако Mail</button>
+                </div>
+              </div>
+            </li>
+            <li class="map-card">
+              <img class="map-card__img" src="images/map-vladivostok.webp" alt="Покрытие карт Дальнего Востока, акватория Владивостока" loading="lazy" draggable="false">
+              <div class="map-card__body">
+                <h3 class="compass">Дальний Восток, акватория Владивостока</h3>
+                <div class="buttons">
+                  <button class="btn btn--locked" type="button" data-link="far-east-yandex">Яндекс Диск</button>
+                  <button class="btn btn--locked" type="button" data-link="far-east-mail">Облако Mail</button>
+                </div>
+              </div>
+            </li>
+            <li class="map-card">
+              <img class="map-card__img" src="images/map-blocked.webp" alt="Заблокированные регионы: Новосибирское водохранилище, Байкал, Красноярское водохранилище" loading="lazy" draggable="false">
+              <div class="map-card__body">
                 <h3 class="compass">Заблокированные регионы РФ</h3>
                 <p>Новосибирское водохранилище, Белое море, Байкал, Красноярское водохранилище. <strong>Эти карты работают только в версии 11.5v5 BoatingHD.</strong></p>
+                <div class="buttons">
+                  <button class="btn btn--locked" type="button" data-link="blocked-yandex">Яндекс Диск</button>
+                  <button class="btn btn--locked" type="button" data-link="blocked-mail">Облако Mail</button>
+                </div>
               </div>
-              <button class="btn btn--locked" type="button" data-link="blocked-regions">Карты</button>
-              <button class="btn btn--locked" type="button" data-link="boating-11-5">Версия 11.5v5</button>
             </li>
           </ul>
-          <div class="block prose">
-            <p class="compass">Также есть карты Калининградской области, от Азовского моря до Гибралтара и Балтики. Если нужны, напишите.</p>
-          </div>
           <div class="block prose">
             <p class="step" id="step-3"><strong>3</strong> Карты должны быть скачаны в папку <strong>Download (Загрузки)</strong> на вашем устройстве. Обычно они сохраняются туда по умолчанию.</p>
           </div>
@@ -169,21 +209,7 @@
             <a class="btn btn--outline btn--video" role="button" tabindex="0" data-href="https://disk.yandex.ru/i/S1PcfnZ_BjGZxA">Видео: первичные настройки</a>
           </div>
           <div class="block prose">
-            <p>Если вы на 100% уверены, что правильно распаковали архив с картами, но при открытии BoatingHD они не прорисовываются, воспользуйтесь <strong>дополнительным архивом products_cache</strong>.</p>
-          </div>
-          <div class="block buttons">
-            <button class="btn btn--locked" type="button" data-link="net-fix">Дополнительный архив (net-fix)</button>
-          </div>
-          <div class="block prose">
-            <p class="step" id="step-5"><strong>5</strong> <strong>Важно!</strong> Содержимое архива (одну папку <strong>products_cache</strong>) нужно распаковать в папку программы <code>/Navionics/BoatingHD</code>. Это на уровень выше, чем распаковывали карты. Распаковывайте так же, как карты, с перезаписью (заменой) существующих файлов.</p>
-            <p>В архиве net-fix одна папка <strong>products_cache</strong>: отметьте её галочкой и скопируйте с заменой в папку <code>/Navionics/BoatingHD/</code>.</p>
-          </div>
-          <div class="block single-photo"><img src="images/net-fix.jpg" alt="Папка products_cache в архиве Net-fix.zip в Total Commander" draggable="false"></div>
-          <div class="block prose">
-            <p class="step" id="step-6"><strong>6</strong> Когда распаковываете карты и net-fix через Total Commander (как в первом видео), приложение Boating должно быть <strong>закрыто</strong>, то есть остановлено и выгружено из памяти. Или просто перезагрузите телефон перед распаковкой.</p>
-          </div>
-          <div class="block prose">
-            <p class="step" id="step-7"><strong>7</strong> На некоторых небольших озёрах и реках глубины видны не в режиме <strong>Navionics</strong>, а только в режиме <strong>SonarChart</strong>. Зоны рыбалки в настройках карты тоже работают только в режиме <strong>SonarChart</strong>.</p>
+            <p class="step" id="step-5"><strong>5</strong> На некоторых небольших озёрах и реках глубины видны не в режиме <strong>Navionics</strong>, а только в режиме <strong>SonarChart</strong>. Зоны рыбалки в настройках карты тоже работают только в режиме <strong>SonarChart</strong>.</p>
             <p>Чтобы <strong>раскрасить диапазоны глубин</strong>, включите <strong>Зоны рыбалки</strong> (Меню → Настройки карты → Зоны рыбалки) и добавьте нужные цветные диапазоны.</p>
           </div>
           <div class="block carousel" data-carousel>
@@ -212,7 +238,7 @@
             <p class="note"><strong>Внимание:</strong> если первый способ не сработал, перед установкой второй версии программы <strong>удалите старую версию</strong>.</p>
           </div>
           <div class="block prose">
-            <p><strong>2. Не показываются глубины.</strong> На некоторых небольших озёрах и реках глубины видны только в режиме <strong>SonarChart</strong>, а не в режиме Navionics (см. шаг 7).</p>
+            <p><strong>2. Не показываются глубины.</strong> На некоторых небольших озёрах и реках глубины видны только в режиме <strong>SonarChart</strong>, а не в режиме Navionics (см. шаг 5).</p>
           </div>
           <div class="block prose">
             <p><strong>3. Интернет.</strong> Устанавливать программу и регистрироваться желательно по <strong>Wi-Fi</strong>.</p>
@@ -254,13 +280,19 @@
         </div>
       </section>
 
-        ШАБЛОН СТРОКИ РЕГИОНА. Скопируйте от <li ...> до </li> и вставьте в список <ul class="charts">
-        рядом с другими регионами.
+        ШАБЛОН КАРТОЧКИ КАРТ. Скопируйте от <li ...> до </li> и вставьте в список <ul class="maps-grid">
+        рядом с другими картами. Картинку положите в папку images.
 
-            <li class="chart-row">
-              <div class="chart-row__text"><h3 class="compass">Название региона</h3><p>Описание (можно удалить эту строку)</p></div>
-              <button class="btn btn--locked" type="button" data-link="ID-yandex">Яндекс Диск</button>
-              <button class="btn btn--locked" type="button" data-link="ID-mail">Облако Mail</button>
+            <li class="map-card">
+              <img class="map-card__img" src="images/имя-картинки.webp" alt="Что на карте" loading="lazy" draggable="false">
+              <div class="map-card__body">
+                <h3 class="compass">Название карт</h3>
+                <p>Описание (можно удалить эту строку)</p>
+                <div class="buttons">
+                  <button class="btn btn--locked" type="button" data-link="ID-yandex">Яндекс Диск</button>
+                  <button class="btn btn--locked" type="button" data-link="ID-mail">Облако Mail</button>
+                </div>
+              </div>
             </li>
       -->
 

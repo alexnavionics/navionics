@@ -19,14 +19,12 @@
   --font-text: "Golos Text", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --font-head: "Tektur", "Golos Text", -apple-system, "Segoe UI", Arial, sans-serif;
   --maxw: 1080px;
-  /* Цвета шагов 1-7, от отмели к глубине. Кружку шага цвет назначает app.js по номеру. */
+  /* Цвета шагов 1-5, от отмели к глубине. Кружку шага цвет назначает app.js по номеру. */
   --depth-1: #8fd3c8;
-  --depth-2: #5dbfcf;
-  --depth-3: #35a3cc;
-  --depth-4: #2183c0;
-  --depth-5: #1a65ab;
-  --depth-6: #164b8c;
-  --depth-7: #12336a;
+  --depth-2: #4fb6cd;
+  --depth-3: #2183c0;
+  --depth-4: #1a5aa0;
+  --depth-5: #12336a;
 }
 
 * { box-sizing: border-box; }
@@ -120,7 +118,7 @@ input[type=password]:focus { border-color: var(--navionics); box-shadow: 0 0 0 3
 }
 .hero p { font-size: clamp(17px, 2vw, 20px); line-height: 1.5; margin: 0 0 30px; max-width: 34em; color: #d6e6f2; }
 
-.depth-scale { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; padding-bottom: 28px; }
+.depth-scale { display: grid; grid-template-columns: repeat(5, 1fr); gap: 3px; padding-bottom: 28px; }
 .depth-scale a {
   display: block; text-decoration: none; color: #d6e6f2; font-size: 13px; line-height: 1.3; padding-top: 12px;
   border-top: 8px solid var(--seg); transition: color .15s ease;
@@ -206,16 +204,22 @@ input[type=password]:focus { border-color: var(--navionics); box-shadow: 0 0 0 3
   @keyframes unfold { from { opacity: 0; transform: translateY(-4px); } }
 }
 
-.charts { list-style: none; margin: 0 0 26px; padding: 0; border-top: 1px solid var(--line); }
-.chart-row {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px;
-  padding: 18px 0; border-bottom: 1px solid var(--line);
+.maps-grid {
+  list-style: none; margin: 0 0 26px; padding: 0;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px;
 }
-.chart-row__text { flex: 1 1 320px; }
-.chart-row__text h3 { font-size: 18px; font-weight: 600; margin: 0; color: var(--deep); line-height: 1.35; }
-.chart-row__text p { margin: 4px 0 0; font-size: 15px; color: var(--muted); }
-.chart-row__text strong { color: var(--deep); font-weight: 600; }
-.chart-row .btn { min-width: 132px; }
+.map-card { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+/* Карты покрытия разной формы, поэтому вписываются целиком, а не обрезаются */
+.map-card__img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #e9e6d6; }
+.map-card__body { flex: 1; display: flex; flex-direction: column; gap: 8px; padding: 16px 18px 18px; }
+.map-card__body h3 { font-size: 18px; font-weight: 600; margin: 0; color: var(--deep); line-height: 1.35; }
+.map-card__body p { margin: 0; font-size: 15px; color: var(--muted); }
+.map-card__body strong { color: var(--deep); font-weight: 600; }
+.map-card .buttons { margin-top: auto; padding-top: 6px; gap: 10px; }
+.map-card .btn { flex: 1 1 auto; }
+.map-card--main { grid-column: 1 / -1; flex-direction: row; }
+.map-card--main .map-card__img { width: 46%; flex: 0 0 46%; }
+.map-card--main .map-card__body { justify-content: center; padding: 22px 26px; }
 
 .compass::before {
   content: ""; display: inline-block; width: 1.05em; height: 1.05em; margin-right: .4em; vertical-align: -.15em;
@@ -267,7 +271,9 @@ footer .brand__name { font-size: 14px; }
   .prose .step { padding-left: 50px; }
   .prose .step > strong:first-child { width: 36px; height: 36px; font-size: 15px; }
   .unlock__form { flex-direction: column; }
-  .chart-row .btn { flex: 1 1 auto; }
+  .maps-grid { grid-template-columns: 1fr; gap: 16px; }
+  .map-card--main { flex-direction: column; }
+  .map-card--main .map-card__img { width: 100%; flex: none; }
   .carousel-item { width: 72vw; max-width: 260px; }
   .car-btn { display: none; }
   .contact .btn { width: 100%; }
