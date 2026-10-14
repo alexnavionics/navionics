@@ -5,9 +5,9 @@ window.PROTECTED_LINKS = [
     "description": "Установочный файл приложения",
     "secret": {
       "iterations": 250000,
-      "salt": "iU5C+4krfhUuMUg/ioB9WQ==",
-      "iv": "Oz1MAzviD9Yblead",
-      "data": "+0ABSo55uJ8ka4BulNSCXW3I+ffdSss11wrpQP4+XNdMZuoLGS8bIfa/Gp/DIoISMu3cVpOibQ=="
+      "salt": "oA2gPCuvyXfGW9HAMBYC8w==",
+      "iv": "YuBq/Sn4fjET7/9u",
+      "data": "0QbkRQvE/aJcN2wB2e3bLRh5yPLLOUD37Oh1jns2FT0e/EjyVyTzl80Wm5FCpp9C9MbxMtixHw=="
     },
     "id": "app"
   },
@@ -16,9 +16,9 @@ window.PROTECTED_LINKS = [
     "description": "Файловый менеджер для распаковки карт",
     "secret": {
       "iterations": 250000,
-      "salt": "fncLuFJfRhwXWpmxot74Aw==",
-      "iv": "XMmxzfzsXOjD+hmc",
-      "data": "6bfOpSBZPu0YVJEhKDz2LZ+oiPje2xwosn/AC5/UyS9on0Stpw8CRWKekoaFP4PSXv2bncrmKQ=="
+      "salt": "YoxudCO4CDZShm4QwApsYA==",
+      "iv": "IfKd898PWZA/Lu9I",
+      "data": "utfTNMDlngyWUhY7X1wUlXJ+ixCz5eQnedkCBHBnWXMuKPw0t0JF884dDC9mI8qtlRR6tslcgw=="
     },
     "id": "total-commander"
   },
@@ -27,9 +27,9 @@ window.PROTECTED_LINKS = [
     "description": "Карты РФ, основной архив",
     "secret": {
       "iterations": 250000,
-      "salt": "i6+rqkYH5w8WLl7r5kHILg==",
-      "iv": "PEpjTdDXHyLatYOo",
-      "data": "Q4GQgj/K91PzJcOhVtRKm+6YytK55nWXPqExcPSBY5tJXPuBcA6yo+VA8KCanLIYGjFWCtm1Lg=="
+      "salt": "hmbg3IzrwTaytULxJ2QwYw==",
+      "iv": "D4NjYrKN4Sh+VdOG",
+      "data": "1nvKp8KKrPloK3/Vg2kTK0+pQpR3S0vSWjMgWwCrYrtlXGzXyHZI/pVt9P9EsaRHJN2Yu6nyCg=="
     },
     "id": "maps-yandex"
   },
@@ -38,9 +38,9 @@ window.PROTECTED_LINKS = [
     "description": "Тот же архив, если Яндекс Диск не даёт скачать",
     "secret": {
       "iterations": 250000,
-      "salt": "r9JZZRTzZU9iqtifNWigNg==",
-      "iv": "LUZjTpBg+VEFaw85",
-      "data": "GB8Qii4g3s+qmQCmBmz5EfZ1cQgXeztJ7eRkU0wL1R97e+wsXHLnHy6G+UvNUt9HsqyiULfusGaPNQs="
+      "salt": "PuVInl18LazOt8ocC7GXUg==",
+      "iv": "yipb84cBi7FkG255",
+      "data": "Hp3Qi1llpYgPYRqI0fm1U1U4QXR46wQHONIcMUhOwpBWYhtv9goOSXlaedo88QimztGcObKdAetoqPg="
     },
     "id": "maps-mail"
   },
@@ -49,9 +49,9 @@ window.PROTECTED_LINKS = [
     "description": "Версия без регистрации",
     "secret": {
       "iterations": 250000,
-      "salt": "cKgMPI+9oza5Hoxq9s/GOA==",
-      "iv": "0SmJXqWbTUDUjM0M",
-      "data": "dzZZJX6UPe7W2Uhr0s36eRv2NOUUzMYOExDMPTcyiANQkAuBWKijsG+z/1Wlgy7iljIbd/lytg=="
+      "salt": "ub0/MfXoBBvooF2SX2xWhw==",
+      "iv": "MWKizpCF0Dmc4+bN",
+      "data": "iRL4Od5sRNEaErW58fAXOetBPUcrbkgUGIM4HUoUl44VkEIOGGoeDpftGgnG0rT8o4n9l0IfZw=="
     },
     "id": "boating-11-5"
   },
@@ -60,9 +60,9 @@ window.PROTECTED_LINKS = [
     "description": "Если ваших карт нет",
     "secret": {
       "iterations": 250000,
-      "salt": "SkQVlBgGBfMRge1RKE8XLw==",
-      "iv": "hB9BDP1x1JfEj62w",
-      "data": "Bf7TsctV8BwNzYWNIMa4HioMjUztbDVtF8xKEkeWFv9M9O36tl41nfX+P9FHOyDMIEsSWPXt8g=="
+      "salt": "9rXFwkC2x8QbREmDf0SHsQ==",
+      "iv": "P1z+FsW1+cwD6+6z",
+      "data": "iHo6uBvkavgT7nIWUjpz7gXySepu3Q0Ty2hp9mfXjsJnA9+JDZFmVP29T/fkgbu+RR8PX+qBDQ=="
     },
     "id": "activecaptain"
   },
@@ -71,9 +71,9 @@ window.PROTECTED_LINKS = [
     "description": "Обновления основного архива",
     "secret": {
       "iterations": 250000,
-      "salt": "2cShYAnIFOBV0oP2wZFVSw==",
-      "iv": "/L9qjCqZxl/upQUz",
-      "data": "qbHXfyw/2+zuwp+yY5rWXljlsOScbogL0deU22MCZKNsqrqEWZfu5adS6LupPQE3g4fsd5hGfFOhYHs="
+      "salt": "XmfQcUa2UTR6zaEWofe/cg==",
+      "iv": "vkhrKXteo4UjHJmk",
+      "data": "jaeL3cHsv343ak/+dNyloiUgL0ZUxwJu7K8DoczXuDBFv4zq9eNt+QBEQhLManpNr5PdVBiMmP2m5Lw="
     },
     "id": "maps-updates"
   },
@@ -82,9 +82,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "nr8BESkDfeY3XRD0/J/Y5Q==",
-      "iv": "g1D3agpI+E177DVE",
-      "data": "/uUJgE70YBqR6I8eiaiq87PVuymgqiQuKztPl+uvLUaKEpPvW2IxmysmSYGBHncNA2SwXGRp8w=="
+      "salt": "Byrgcp6wVprtUYEXPjlE3A==",
+      "iv": "rdUoSRSvmoY//qxa",
+      "data": "H3LMcEceMtPHHfzXdkXdIG8WypRmQfLSnExnqvouVuM9O01Sf2teK0VsSvqZLW8USsC579DzMQ=="
     },
     "id": "kaliningrad-yandex"
   },
@@ -93,9 +93,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "EGd55XKkxSf6OSZFqd0Hig==",
-      "iv": "LTpT5mFuP/mVGSJB",
-      "data": "5lzJldx54wDvn79mkWED4snyqyWH5HOBxE/sBfg/RJKKpZ99vetGQxwNkyoNt0QbEdYkCorUpHi3hk0="
+      "salt": "YRX6gAonhrWPSFi8bslhQw==",
+      "iv": "GCKzgfWs1R2w0HiR",
+      "data": "u3B9vV16jxK5LtBkz9O8MAyRamQfkZgjoNlY92A8jMoKF21q1S32grz5XM5lIKJt2qOM5TbUOeUYCOg="
     },
     "id": "kaliningrad-mail"
   },
@@ -104,9 +104,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "zoOkYh1P0Las1iBV88mjdg==",
-      "iv": "0jl3bkcftxEWm8Cf",
-      "data": "/zZEnlZdnKP1aXOuVAimgeo+g0ZnlFEEp6cIukP1hOjI9dWT4ZJOh2VJ49VNa69o9Rup17+kSQ=="
+      "salt": "X4+pABEph11bIU86bxmzWw==",
+      "iv": "r01EofFvGTQdMcnG",
+      "data": "DO5zfDuqCdvweKnhFIlSCHkyz5mKX6zR+dHc1BCUSQxjeil5az5Ukw0RhXkKa1JfNiGV8yRhZA=="
     },
     "id": "baltic-yandex"
   },
@@ -115,9 +115,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "BKyu/018YDqQUtZ0TAqrqg==",
-      "iv": "e0A3jMFAzt3fA6gY",
-      "data": "5iE4V8qAHD0Kpg+Wxymp7hujtrZF7a6oHggxA9R5jiPyQuOWeGBmcsTh+LUOxrVGUTas/oHKdg=="
+      "salt": "Wy3J+tMWmqokTB2CvEVqHg==",
+      "iv": "nD+px4SQA/rm8Y5e",
+      "data": "VabA/HfFbePX5teOJpHRbf8hDK20BT/23noCdylr0UX51TIf+O/S5eI62DhHQcM+saZiYfH7sQ=="
     },
     "id": "baltic-mail"
   },
@@ -126,9 +126,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "hrgRi2d9Ieg9jbVKLIb5Pw==",
-      "iv": "+v2JdICcZHl4ZtdY",
-      "data": "oEHEC9w9XqRsyZTn9Y61rxQhGkobPqjClrskSq3Ccb4sQxcW1oh3/uZ9SCZzCC6sPrdjCc9DRw=="
+      "salt": "NrHAHWf40vIxPklXzOPn0g==",
+      "iv": "sor/00w5SWgk1vHR",
+      "data": "4oZP1LiiGrD0x4xvnPvffuWGc35C8PkplvtMyOxIROYdUniacNXk3TtwIjO89c+bIwb6QYLs8w=="
     },
     "id": "europe-yandex"
   },
@@ -137,9 +137,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "eKfreUykzrqzLC+QgGSGPQ==",
-      "iv": "xBmYosYalJJe5U6c",
-      "data": "RjwbMF5LNErnBXRAbQyyDKV3GjONPmI4ikowh2KFB6WFJ1llCw/QDeay3xgELQQaozYiarcNkQ=="
+      "salt": "fqRIXdwNmVDAy4ziVNZunQ==",
+      "iv": "59/gB+xJrqycQNAp",
+      "data": "IefLpVufJjK6+hPSEV8/j6zjwJfsv/fcuSY/VdR26cpgsMg5P6uNS9lhi5TKUYPK8Ak/IrnO9g=="
     },
     "id": "europe-mail"
   },
@@ -148,9 +148,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "vwH/epK1cgAtNNmVFmyDjA==",
-      "iv": "xg1nLXLrBfx/EUnj",
-      "data": "1YH5KK/TRKk3dh+A+ef6BNSMq9Yif9t8EoE2Q9PSfBd7wqKpuwgG8xF2MVG9bRSyMsVmdaKYxmit7wc="
+      "salt": "20+L0AX5SOo/zWGNIW52CQ==",
+      "iv": "KJrVTJYSDAHr1SzU",
+      "data": "Z5o0P77e7HjVsHi6Re9r29XKyTpQ4aJdPFXH4mMo0B56kX2SBnrN94TJHZXcsBa8Rinn5CMUwwmwbRg="
     },
     "id": "mediterranean-yandex"
   },
@@ -159,9 +159,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "lJFiMYTTmDemZqyePZmjnw==",
-      "iv": "CXYNvY9VYLLVPfRz",
-      "data": "ahqOEZegZvJigY/Y6sp4+32WseNZisjK3+yGRWkvSsoQ125vlB40XKBB2fFKYkvJB3Pb6xv+8zUom7w="
+      "salt": "h9QI5tBSAhs2K4duWXiSfQ==",
+      "iv": "cZvHD2lcddbmPi0o",
+      "data": "tpTobojzJgYMhUBhcRqPv3y6RA6vMnlDpRiC0irD7TLpBVpLcADH+Pn/4kI4ZHHXtt1Hwf+vMq9JalM="
     },
     "id": "mediterranean-mail"
   },
@@ -170,9 +170,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "BQyjZny0qQWn4ss0uiiRDQ==",
-      "iv": "bur41OqMW0moMEza",
-      "data": "IRw1powXrGfwiUr9nlunRwQu2j53fom5Eogl/kQk9u691ISnwgyBq2XdJckQfIWQzKCeOL/CHKDHjGQ="
+      "salt": "12w+0i4adCHBSyHo6mdoKw==",
+      "iv": "0VyJzsdfyVo4Os/v",
+      "data": "eOYJHs/HXld70w2kwbtqlE2qXSg+gdc3Iao6EhA8Sftl44Ch276RnFMzYSNyaVN2IEb70q7LHaebm1A="
     },
     "id": "far-east-yandex"
   },
@@ -181,9 +181,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "Vnepvjusnk8LylsuTbPnig==",
-      "iv": "/Kpp+AzKPLENMUE4",
-      "data": "4lkBhfpS7pN0JlZxiltPfRV+USg0IaObb4+smOxezLD5agDhqC8rJ9Ex1USrDgJFqeTxyfSRL+clthI="
+      "salt": "IsA8fW56cvsgHD9OBvfFgw==",
+      "iv": "YzNuQDuMXkul65Vg",
+      "data": "iUnV3akoSdQNP7NXXK4BdoartrmX6IuxL9kUDJA2ipCMe3paKEXK9LAMq89x/HfrmQLxX+8AndAOIRc="
     },
     "id": "far-east-mail"
   },
@@ -192,9 +192,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "Ukrh9SkQZn6IHx1iZjrxfg==",
-      "iv": "PPZCDeF74l9gf0SI",
-      "data": "cG5b6UQE+ktWPRjwwkV4OlHwaeQl+QgwQ0j/IOtwvEZlshB+JhtkhxTkMB61iU1EqPSRzB+D8Q=="
+      "salt": "WtKblKeu0OFiYdBdBSvwPw==",
+      "iv": "jE8usfZSJ39/0Rkf",
+      "data": "cIABm0oNv0BH11mLl8ZJ97J8pYGntoXHevqkggm9ulKjKs23x7kHZPmaIWgJ2U/qwBcZaE9dwA=="
     },
     "id": "blocked-yandex"
   },
@@ -203,9 +203,9 @@ window.PROTECTED_LINKS = [
     "description": "",
     "secret": {
       "iterations": 250000,
-      "salt": "KA15gFl7beefuiDlO30BOg==",
-      "iv": "F1UUoOrjsfLMSQer",
-      "data": "b6fUqyhQCHNJH13biw6F4kL68udB3Hq9z3Yy5OpoUmXiZc8rBPY8UL0dpc9aQaMx0IJifBBpYQv4Euw="
+      "salt": "u9KJBM/JAhlcv8Hy9e6hOg==",
+      "iv": "pmwy2DV8H/eJQ5Du",
+      "data": "elwhrgPAkLZ6th42Np/8nfRTR+ZZNtRVbMnssr41SUFjt896qSGpHeQ6NaDin8EHQce790Hsb+uqLIc="
     },
     "id": "blocked-mail"
   }
